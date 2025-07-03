@@ -1,20 +1,18 @@
 'use client'
-import { todo } from "node:test";
 import { useState } from "react"
-import { Button } from "./Button";
+import { MyButton } from "./Button";
 import { Card } from "./Card"
 import type { CardProps } from "./Card";
-import { BrightStar } from "iconoir-react";
 import DeleteIcon from '@mui/icons-material/Delete';
-import Buttonn from '@mui/material/Button';
+import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import Checkbox from '@mui/material/Checkbox';
 import { Box, Menu, MenuItem, Stack } from "@mui/material";
 import CelebrationIcon from '@mui/icons-material/Celebration';
-import { lightBlue } from "@mui/material/colors";
 
 
-export default function AddToDo(){
+
+export default function Todo(){
     const [todos, setTodos] = useState<CardProps[]>([]);
     const [inputValue, setInputValue] = useState<string>('');
     const [open,setOpen] = useState<boolean>(false);
@@ -83,16 +81,16 @@ export default function AddToDo(){
                 placeholder="Add a new todo!" 
                 required 
             />
-            <Button
+            <MyButton
                 onClick={add}
             >
                 Add
-            </Button>
+            </MyButton>
             </Stack>
             <Stack direction="row" spacing={2} padding={2} justifyContent="center">
-            <Buttonn onClick={pressed1} disabled={isClicked1}>Filter (All)</Buttonn>           
-            <Buttonn onClick={pressed2} disabled={isClicked2}>Filter (Completed)</Buttonn>
-            <Buttonn onClick={pressed3} disabled={isClicked3}>Filter (Ongoing)</Buttonn>
+            <Button onClick={pressed1} disabled={isClicked1}>Filter (All)</Button>           
+            <Button onClick={pressed2} disabled={isClicked2}>Filter (Completed)</Button>
+            <Button onClick={pressed3} disabled={isClicked3}>Filter (Ongoing)</Button>
             </Stack>
 
             <ul>

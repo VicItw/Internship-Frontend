@@ -8,7 +8,7 @@ type ButtonProps = {
     className?: string;
 };
 
-export const Button: React.FC<ButtonProps> = ({
+export const MyButton: React.FC<ButtonProps> = ({
     onClick,
     children,
     variant = 'primary',
