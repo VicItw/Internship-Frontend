@@ -7,7 +7,7 @@ const TodoList = () => {
   return (
     <Box>
       <TopBar/>
-      <Stack direction = "row" spacing = {2} justifyContent = "space-between">
+      <Stack direction="row" spacing={2} justifyContent="space-between">
         <AddToDo/>
       </Stack>
     </Box>

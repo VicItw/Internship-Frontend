@@ -31,8 +31,8 @@ const eslintConfig = [
       "comma-dangle": ["error", "never"],
       "@typescript-eslint/no-explicit-any": "error",
 
-      // "@stylistic/type-annotation-spacing": "error",
-      "@stylistic/jsx-equals-spacing": [1, "always"],
+      "@stylistic/type-annotation-spacing": "error",
+      "@stylistic/jsx-equals-spacing": ['error', "never"],
       "space-infix-ops": "error"
     }
   })
