@@ -8,19 +8,19 @@ import MenuIcon from '@mui/icons-material/Menu'
 
 export default function TopBar() {
   return (
-    <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static">
+    <Box sx = {{ flexGrow: 1 }}>
+      <AppBar position = "static">
         <Toolbar>
           <IconButton
-            size="large"
-            edge="start"
-            color="inherit"
-            aria-label="menu"
-            sx={{ mr: 2 }}
+            size = "large"
+            edge = "start"
+            color = "inherit"
+            aria-label = "menu"
+            sx = {{ mr: 2 }}
           >
             <MenuIcon />
           </IconButton>
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+          <Typography variant = "h6" component = "div" sx = {{ flexGrow: 1 }}>
             Todo Application
           </Typography>
         </Toolbar>
