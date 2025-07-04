@@ -3,6 +3,7 @@ import { fileURLToPath } from "url"
 import { FlatCompat } from "@eslint/eslintrc"
 import js from '@eslint/js'
 import stylistic from '@stylistic/eslint-plugin'
+import { error } from "console"
 
 
 const __filename = fileURLToPath(import.meta.url)
@@ -31,9 +32,9 @@ const eslintConfig = [
       "comma-dangle": ["error", "never"],
       "@typescript-eslint/no-explicit-any": "error",
 
-      // "@stylistic/type-annotation-spacing": "error",
-      "@stylistic/jsx-equals-spacing": [1, "always"],
-      "space-infix-ops": "error"
+      "@stylistic/type-annotation-spacing": "error",
+      "@stylistic/jsx-equals-spacing": ['error', "never"],
+      // "space-infix-ops": "error"
     }
   })
 ]
