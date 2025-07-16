@@ -39,10 +39,6 @@ export default function Home() {
     createData(973145,"Juan Luiz", "Juan.l@asj.tech", "System Admin", "HR,PDPA,Wealth", "Active", ""),
     createData(984315,"Juan Mata", "Juan.m@asj.tech", "Data Factory", "HR,Regulatory", "Inactive", "Delete resigned staff"),
     createData(952145,"Juan Lopetegui", "Juan.lo@asj.tech", "KLabs", "Wealth,Regulatory", "Active", "")
-    //   createData('Ice cream sandwich', 237, 9.0, 37, 4.3),
-    //   createData('Eclair', 262, 16.0, 24, 6.0),
-    //   createData('Cupcake', 305, 3.7, 67, 4.3),
-    //   createData('Gingerbread', 356, 16.0, 49, 3.9),
   ]
   return (
     <Stack direction="row" bgcolor="#F5F6F8">
