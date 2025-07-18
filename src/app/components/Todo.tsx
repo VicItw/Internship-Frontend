@@ -86,11 +86,7 @@ export default function Todo(){
                 Add
         </MyButton>
       </Stack>
-<<<<<<< HEAD
-      <Stack direction="row" spacing={2} padding={2} justifyContent="center">
-=======
       <Stack direction="row" spacing={1} padding={2} justifyContent="center">
->>>>>>> responsive_implementation
         <Button onClick={filterAll} disabled={allFilterClicked}>Filter (All)</Button>           
         <Button onClick={filterCompleted} disabled={completedFilterClicked}>Filter (Completed)</Button>
         <Button onClick={filterOngoing} disabled={ongoingFilterClicked}>Filter (Ongoing)</Button>
@@ -100,19 +96,11 @@ export default function Todo(){
         {filteredTodos.length > 0 ? (
           filteredTodos.map(todoItem => (
             <li key={crypto.randomUUID()} className={todoItem.completed ? "line-through" : ""}>
-<<<<<<< HEAD
-              <Stack direction="row" justifyContent="center" sx={{alignItems:"center"}}>
-                <Checkbox checked={todoItem.completed} onChange={() => toggle(todoItem.id)} size="large">
-
-                </Checkbox>
-                <Card
-=======
               <Stack direction="row" justifyContent="center" sx={{alignItems:"center"}} spacing={1}>
                 <Checkbox checked={todoItem.completed} onChange={() => toggle(todoItem.id)} variant="soft">
 
                 </Checkbox>
                 <Cardd
->>>>>>> responsive_implementation
                   id={todoItem.id} title={todoItem.title} completed={todoItem.completed}
                 />
                 <IconButton onClick={() => del(todoItem.id)} aria-label="delete" size="large">

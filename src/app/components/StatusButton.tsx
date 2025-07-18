@@ -21,7 +21,7 @@ export const StatusButton: React.FC<ButtonProps> = ({
       disabled={disabled}
       className={className}
       variant="contained"
-      sx = {{bgcolor: (children==="Active")? "#109CF1" : "#AEBBE0"}}
+      sx = {{bgcolor: (children==="Active")? "#109CF1" : (children == "Inactive") ? "#AEBBE0" : "#ed9a7b"}}
       fullWidth
     >
       {children}

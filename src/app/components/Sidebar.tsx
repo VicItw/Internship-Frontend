@@ -9,6 +9,8 @@ import FolderCopyOutlinedIcon from '@mui/icons-material/FolderCopyOutlined'
 import ContentPasteOutlinedIcon from '@mui/icons-material/ContentPasteOutlined'
 import StickyNote2OutlinedIcon from '@mui/icons-material/StickyNote2Outlined'
 import Groups3OutlinedIcon from '@mui/icons-material/Groups3Outlined'
+import ChecklistIcon from '@mui/icons-material/Checklist';
+import Link from "next/link"
 
 const Sidebar = () => {
   const [open, setOpen] = React.useState(false)
@@ -18,8 +20,6 @@ const Sidebar = () => {
   }
   return (
     <div>   
-      {/* <button onClick={() => toggle()}>change</button> */}
-      {/* <Box bgcolor="gray" width="300px"> */}
       <Collapse in={open} style ={{transitionDuration: "400 ms"}} orientation="horizontal" collapsedSize="60px">
         <Box bgcolor="white" width="270px" padding="10px" height="700px">
                         
@@ -41,12 +41,14 @@ const Sidebar = () => {
                                 
           </Stack>
           <Stack direction="column" spacing={2} margin={0.6} mt={2}>
-            <Stack direction="row">
-              <Tooltip title={open? null : "UAM"} placement="right" arrow>
-                <AssignmentIndOutlinedIcon sx={{ fontSize: 30 }}/>
-              </Tooltip>
-              <Typography variant="body2" mt={0.5} ml={1} sx ={{display: open? 'flex' : 'none'}}>UAM</Typography>
-            </Stack>
+            <Link href="/UAM">
+                <Stack direction="row">
+                <Tooltip title={open? null : "UAM"} placement="right" arrow>
+                    <AssignmentIndOutlinedIcon sx={{ fontSize: 30 }}/>
+                </Tooltip>
+                <Typography variant="body2" mt={0.5} ml={1} sx ={{display: open? 'flex' : 'none'}}>UAM</Typography>
+                </Stack>
+            </Link>
                             
             <Stack direction="row">
               <Tooltip title={open? null : "Use Case Management"} placement="right" arrow>
@@ -79,10 +81,18 @@ const Sidebar = () => {
               </Tooltip>
               <Typography mt={0.5} ml={1} sx ={{display: open? 'flex' : 'none'}}>Teachable Tool</Typography>
             </Stack>
+            
+            <Link href="/todo">
+                <Stack direction="row">
+                <Tooltip title={open? null : "Todolist"} placement="right" arrow>
+                    <ChecklistIcon sx={{ fontSize: 30 }}/>
+                </Tooltip>
+                <Typography mt={0.5} ml={1} sx ={{display: open? 'flex' : 'none'}}>Todolist</Typography>
+                </Stack>
+            </Link>
           </Stack>
         </Box>
       </Collapse>
-      {/* </Box> */}
     </div>
   )
 }
