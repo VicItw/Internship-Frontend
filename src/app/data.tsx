@@ -18,7 +18,7 @@ export const data: dataType[] = [
     group_role: "Food Chemist",
     channel: "Services",
     status: "Inactive",
-    status_reason: "Disable 60 days",
+    status_reason: "Disable 60 days"
   },
   {
     emp_id: 973002,
@@ -28,7 +28,7 @@ export const data: dataType[] = [
     group_role: "VP Product Management",
     channel: "Human Resources",
     status: "Inactive",
-    status_reason: "Disable 60 days",
+    status_reason: "Disable 60 days"
   },
   {
     emp_id: 973003,
@@ -38,7 +38,7 @@ export const data: dataType[] = [
     group_role: "Editor",
     channel: "Product Management",
     status: "Active",
-    status_reason: "",
+    status_reason: ""
   },
   {
     emp_id: 973004,
@@ -48,7 +48,7 @@ export const data: dataType[] = [
     group_role: "Administrative Officer",
     channel: "Engineering",
     status: "Active",
-    status_reason: "",
+    status_reason: ""
   },
   {
     emp_id: 973005,
@@ -58,7 +58,7 @@ export const data: dataType[] = [
     group_role: "Information Systems Manager",
     channel: "Business Development",
     status: "Active",
-    status_reason: "",
+    status_reason: ""
   },
   {
     emp_id: 973006,
@@ -68,7 +68,7 @@ export const data: dataType[] = [
     group_role: "Nurse",
     channel: "Sales",
     status: "Deleted",
-    status_reason: "Deleted resigned staff",
+    status_reason: "Deleted resigned staff"
   },
   {
     emp_id: 973007,
@@ -78,7 +78,7 @@ export const data: dataType[] = [
     group_role: "Food Chemist",
     channel: "Business Development",
     status: "Active",
-    status_reason: "",
+    status_reason: ""
   },
   {
     emp_id: 973008,
@@ -88,7 +88,7 @@ export const data: dataType[] = [
     group_role: "Chemical Engineer",
     channel: "Services",
     status: "Active",
-    status_reason: "",
+    status_reason: ""
   },
   {
     emp_id: 973009,
@@ -98,7 +98,7 @@ export const data: dataType[] = [
     group_role: "Professor",
     channel: "Support",
     status: "Inactive",
-    status_reason: "Disable 30 days",
+    status_reason: "Disable 30 days"
   },
   {
     emp_id: 973010,
@@ -108,7 +108,7 @@ export const data: dataType[] = [
     group_role: "Structural Analysis Engineer",
     channel: "Engineering",
     status: "Active",
-    status_reason: "",
+    status_reason: ""
   },
   {
     emp_id: 973011,
@@ -118,7 +118,7 @@ export const data: dataType[] = [
     group_role: "Database Administrator III",
     channel: "Legal",
     status: "Active",
-    status_reason: "",
+    status_reason: ""
   },
   {
     emp_id: 973012,
@@ -128,7 +128,7 @@ export const data: dataType[] = [
     group_role: "Assistant Manager",
     channel: "Marketing",
     status: "Active",
-    status_reason: "",
+    status_reason: ""
   },
   {
     emp_id: 973013,
@@ -138,7 +138,7 @@ export const data: dataType[] = [
     group_role: "Human Resources Manager",
     channel: "Marketing",
     status: "Active",
-    status_reason: "",
+    status_reason: ""
   },
   {
     emp_id: 973014,
@@ -148,7 +148,7 @@ export const data: dataType[] = [
     group_role: "Financial Analyst",
     channel: "Training",
     status: "Active",
-    status_reason: "",
+    status_reason: ""
   },
   {
     emp_id: 973015,
@@ -158,7 +158,7 @@ export const data: dataType[] = [
     group_role: "Editor",
     channel: "Product Management",
     status: "Active",
-    status_reason: "",
+    status_reason: ""
   },
   {
     emp_id: 973016,
@@ -168,7 +168,7 @@ export const data: dataType[] = [
     group_role: "Product Engineer",
     channel: "Product Management",
     status: "Inactive",
-    status_reason: "Disable 30 days",
+    status_reason: "Disable 30 days"
   },
   {
     emp_id: 973017,
@@ -178,7 +178,7 @@ export const data: dataType[] = [
     group_role: "Editor",
     channel: "Support",
     status: "Active",
-    status_reason: "",
+    status_reason: ""
   },
   {
     emp_id: 973018,
@@ -188,7 +188,7 @@ export const data: dataType[] = [
     group_role: "Help Desk Operator",
     channel: "Legal",
     status: "Active",
-    status_reason: "",
+    status_reason: ""
   },
   {
     emp_id: 973019,
@@ -198,7 +198,7 @@ export const data: dataType[] = [
     group_role: "Account Coordinator",
     channel: "Sales",
     status: "Active",
-    status_reason: "",
+    status_reason: ""
   },
   {
     emp_id: 973020,
@@ -208,7 +208,7 @@ export const data: dataType[] = [
     group_role: "Mechanical Systems Engineer",
     channel: "Services",
     status: "Active",
-    status_reason: "",
+    status_reason: ""
   },
   {
     emp_id: 973021,
@@ -218,7 +218,7 @@ export const data: dataType[] = [
     group_role: "Marketing Manager",
     channel: "Sales",
     status: "Active",
-    status_reason: "",
+    status_reason: ""
   },
   {
     emp_id: 973022,
@@ -228,7 +228,7 @@ export const data: dataType[] = [
     group_role: "Project Manager",
     channel: "Business Development",
     status: "Active",
-    status_reason: "",
+    status_reason: ""
   },
   {
     emp_id: 973023,
@@ -238,7 +238,7 @@ export const data: dataType[] = [
     group_role: "Safety Technician I",
     channel: "Legal",
     status: "Active",
-    status_reason: "",
+    status_reason: ""
   },
   {
     emp_id: 973024,
@@ -248,7 +248,7 @@ export const data: dataType[] = [
     group_role: "Actuary",
     channel: "Marketing",
     status: "Active",
-    status_reason: "",
+    status_reason: ""
   },
   {
     emp_id: 973025,
@@ -258,7 +258,7 @@ export const data: dataType[] = [
     group_role: "Legal Assistant",
     channel: "Product Management",
     status: "Active",
-    status_reason: "",
+    status_reason: ""
   },
   {
     emp_id: 973026,
@@ -268,7 +268,7 @@ export const data: dataType[] = [
     group_role: "Occupational Therapist",
     channel: "Product Management",
     status: "Active",
-    status_reason: "",
+    status_reason: ""
   },
   {
     emp_id: 973027,
@@ -278,7 +278,7 @@ export const data: dataType[] = [
     group_role: "Food Chemist",
     channel: "Human Resources",
     status: "Active",
-    status_reason: "",
+    status_reason: ""
   },
   {
     emp_id: 973028,
@@ -288,7 +288,7 @@ export const data: dataType[] = [
     group_role: "Pharmacist",
     channel: "Services",
     status: "Active",
-    status_reason: "",
+    status_reason: ""
   },
   {
     emp_id: 973029,
@@ -298,7 +298,7 @@ export const data: dataType[] = [
     group_role: "Professor",
     channel: "Support",
     status: "Inactive",
-    status_reason: "Disable 60 days",
+    status_reason: "Disable 60 days"
   },
   {
     emp_id: 973030,
@@ -308,7 +308,7 @@ export const data: dataType[] = [
     group_role: "Chief Design Engineer",
     channel: "Marketing",
     status: "Active",
-    status_reason: "",
+    status_reason: ""
   },
   {
     emp_id: 973031,
@@ -318,7 +318,7 @@ export const data: dataType[] = [
     group_role: "Legal Assistant",
     channel: "Services",
     status: "Active",
-    status_reason: "",
+    status_reason: ""
   },
   {
     emp_id: 973032,
@@ -328,7 +328,7 @@ export const data: dataType[] = [
     group_role: "Developer III",
     channel: "Sales",
     status: "Active",
-    status_reason: "",
+    status_reason: ""
   },
   {
     emp_id: 973033,
@@ -338,7 +338,7 @@ export const data: dataType[] = [
     group_role: "Environmental Specialist",
     channel: "Product Management",
     status: "Active",
-    status_reason: "",
+    status_reason: ""
   },
   {
     emp_id: 973034,
@@ -348,7 +348,7 @@ export const data: dataType[] = [
     group_role: "Computer Systems Analyst III",
     channel: "Marketing",
     status: "Active",
-    status_reason: "",
+    status_reason: ""
   },
   {
     emp_id: 973035,
@@ -358,7 +358,7 @@ export const data: dataType[] = [
     group_role: "Payment Adjustment Coordinator",
     channel: "Training",
     status: "Active",
-    status_reason: "",
+    status_reason: ""
   },
   {
     emp_id: 973036,
@@ -368,7 +368,7 @@ export const data: dataType[] = [
     group_role: "Accountant IV",
     channel: "Training",
     status: "Active",
-    status_reason: "",
+    status_reason: ""
   },
   {
     emp_id: 973037,
@@ -378,7 +378,7 @@ export const data: dataType[] = [
     group_role: "Software Engineer I",
     channel: "Product Management",
     status: "Inactive",
-    status_reason: "Disable 30 days",
+    status_reason: "Disable 30 days"
   },
   {
     emp_id: 973038,
@@ -388,7 +388,7 @@ export const data: dataType[] = [
     group_role: "Assistant Professor",
     channel: "Services",
     status: "Active",
-    status_reason: "",
+    status_reason: ""
   },
   {
     emp_id: 973039,
@@ -398,7 +398,7 @@ export const data: dataType[] = [
     group_role: "Sales Representative",
     channel: "Human Resources",
     status: "Inactive",
-    status_reason: "Disable 60 days",
+    status_reason: "Disable 60 days"
   },
   {
     emp_id: 973040,
@@ -408,7 +408,7 @@ export const data: dataType[] = [
     group_role: "Cost Accountant",
     channel: "Research and Development",
     status: "Active",
-    status_reason: "",
+    status_reason: ""
   },
   {
     emp_id: 973041,
@@ -418,7 +418,7 @@ export const data: dataType[] = [
     group_role: "Product Engineer",
     channel: "Accounting",
     status: "Active",
-    status_reason: "",
+    status_reason: ""
   },
   {
     emp_id: 973042,
@@ -428,7 +428,7 @@ export const data: dataType[] = [
     group_role: "Senior Quality Engineer",
     channel: "Human Resources",
     status: "Active",
-    status_reason: "",
+    status_reason: ""
   },
   {
     emp_id: 973043,
@@ -438,7 +438,7 @@ export const data: dataType[] = [
     group_role: "Cost Accountant",
     channel: "Accounting",
     status: "Active",
-    status_reason: "",
+    status_reason: ""
   },
   {
     emp_id: 973044,
@@ -448,7 +448,7 @@ export const data: dataType[] = [
     group_role: "Nurse",
     channel: "Accounting",
     status: "Deleted",
-    status_reason: "Deleted resigned staff",
+    status_reason: "Deleted resigned staff"
   },
   {
     emp_id: 973045,
@@ -458,7 +458,7 @@ export const data: dataType[] = [
     group_role: "Marketing Assistant",
     channel: "Sales",
     status: "Inactive",
-    status_reason: "Disable 60 days",
+    status_reason: "Disable 60 days"
   },
   {
     emp_id: 973046,
@@ -468,7 +468,7 @@ export const data: dataType[] = [
     group_role: "Health Coach II",
     channel: "Human Resources",
     status: "Active",
-    status_reason: "",
+    status_reason: ""
   },
   {
     emp_id: 973047,
@@ -478,7 +478,7 @@ export const data: dataType[] = [
     group_role: "Desktop Support Technician",
     channel: "Research and Development",
     status: "Active",
-    status_reason: "",
+    status_reason: ""
   },
   {
     emp_id: 973048,
@@ -488,7 +488,7 @@ export const data: dataType[] = [
     group_role: "Web Developer I",
     channel: "Support",
     status: "Active",
-    status_reason: "",
+    status_reason: ""
   },
   {
     emp_id: 973049,
@@ -498,7 +498,7 @@ export const data: dataType[] = [
     group_role: "Chief Design Engineer",
     channel: "Support",
     status: "Inactive",
-    status_reason: "Disable 30 days",
+    status_reason: "Disable 30 days"
   },
   {
     emp_id: 973050,
@@ -508,7 +508,7 @@ export const data: dataType[] = [
     group_role: "Analyst Programmer",
     channel: "Human Resources",
     status: "Inactive",
-    status_reason: "Disable 30 days",
+    status_reason: "Disable 30 days"
   },
   {
     emp_id: 973051,
@@ -518,7 +518,7 @@ export const data: dataType[] = [
     group_role: "Office Assistant IV",
     channel: "Marketing",
     status: "Active",
-    status_reason: "",
+    status_reason: ""
   },
   {
     emp_id: 973052,
@@ -528,7 +528,7 @@ export const data: dataType[] = [
     group_role: "Account Coordinator",
     channel: "Support",
     status: "Active",
-    status_reason: "",
+    status_reason: ""
   },
   {
     emp_id: 973053,
@@ -538,7 +538,7 @@ export const data: dataType[] = [
     group_role: "Administrative Assistant I",
     channel: "Business Development",
     status: "Active",
-    status_reason: "",
+    status_reason: ""
   },
   {
     emp_id: 973054,
@@ -548,7 +548,7 @@ export const data: dataType[] = [
     group_role: "Graphic Designer",
     channel: "Marketing",
     status: "Active",
-    status_reason: "",
+    status_reason: ""
   },
   {
     emp_id: 973055,
@@ -558,7 +558,7 @@ export const data: dataType[] = [
     group_role: "Geological Engineer",
     channel: "Marketing",
     status: "Active",
-    status_reason: "",
+    status_reason: ""
   },
   {
     emp_id: 973056,
@@ -568,7 +568,7 @@ export const data: dataType[] = [
     group_role: "Sales Associate",
     channel: "Business Development",
     status: "Active",
-    status_reason: "",
+    status_reason: ""
   },
   {
     emp_id: 973057,
@@ -578,7 +578,7 @@ export const data: dataType[] = [
     group_role: "Sales Associate",
     channel: "Support",
     status: "Active",
-    status_reason: "",
+    status_reason: ""
   },
   {
     emp_id: 973058,
@@ -588,7 +588,7 @@ export const data: dataType[] = [
     group_role: "Dental Hygienist",
     channel: "Legal",
     status: "Active",
-    status_reason: "",
+    status_reason: ""
   },
   {
     emp_id: 973059,
@@ -598,7 +598,7 @@ export const data: dataType[] = [
     group_role: "Research Associate",
     channel: "Training",
     status: "Deleted",
-    status_reason: "Deleted resigned staff",
+    status_reason: "Deleted resigned staff"
   },
   {
     emp_id: 973060,
@@ -608,7 +608,7 @@ export const data: dataType[] = [
     group_role: "Analyst Programmer",
     channel: "Product Management",
     status: "Active",
-    status_reason: "",
+    status_reason: ""
   },
   {
     emp_id: 973061,
@@ -618,7 +618,7 @@ export const data: dataType[] = [
     group_role: "Staff Accountant I",
     channel: "Human Resources",
     status: "Active",
-    status_reason: "",
+    status_reason: ""
   },
   {
     emp_id: 973062,
@@ -628,7 +628,7 @@ export const data: dataType[] = [
     group_role: "Administrative Assistant I",
     channel: "Sales",
     status: "Deleted",
-    status_reason: "Deleted resigned staff",
+    status_reason: "Deleted resigned staff"
   },
   {
     emp_id: 973063,
@@ -638,7 +638,7 @@ export const data: dataType[] = [
     group_role: "Staff Accountant II",
     channel: "Sales",
     status: "Active",
-    status_reason: "",
+    status_reason: ""
   },
   {
     emp_id: 973064,
@@ -648,7 +648,7 @@ export const data: dataType[] = [
     group_role: "Web Designer IV",
     channel: "Legal",
     status: "Active",
-    status_reason: "",
+    status_reason: ""
   },
   {
     emp_id: 973065,
@@ -658,7 +658,7 @@ export const data: dataType[] = [
     group_role: "Physical Therapy Assistant",
     channel: "Support",
     status: "Active",
-    status_reason: "",
+    status_reason: ""
   },
   {
     emp_id: 973066,
@@ -668,7 +668,7 @@ export const data: dataType[] = [
     group_role: "Chief Design Engineer",
     channel: "Services",
     status: "Active",
-    status_reason: "",
+    status_reason: ""
   },
   {
     emp_id: 973067,
@@ -678,7 +678,7 @@ export const data: dataType[] = [
     group_role: "Sales Representative",
     channel: "Services",
     status: "Active",
-    status_reason: "",
+    status_reason: ""
   },
   {
     emp_id: 973068,
@@ -688,7 +688,7 @@ export const data: dataType[] = [
     group_role: "Web Developer II",
     channel: "Sales",
     status: "Inactive",
-    status_reason: "Disable 30 days",
+    status_reason: "Disable 30 days"
   },
   {
     emp_id: 973069,
@@ -698,7 +698,7 @@ export const data: dataType[] = [
     group_role: "VP Accounting",
     channel: "Human Resources",
     status: "Active",
-    status_reason: "",
+    status_reason: ""
   },
   {
     emp_id: 973070,
@@ -708,7 +708,7 @@ export const data: dataType[] = [
     group_role: "Staff Scientist",
     channel: "Marketing",
     status: "Active",
-    status_reason: "",
+    status_reason: ""
   },
   {
     emp_id: 973071,
@@ -718,7 +718,7 @@ export const data: dataType[] = [
     group_role: "Help Desk Technician",
     channel: "Sales",
     status: "Inactive",
-    status_reason: "Disable 30 days",
+    status_reason: "Disable 30 days"
   },
   {
     emp_id: 973072,
@@ -728,7 +728,7 @@ export const data: dataType[] = [
     group_role: "Payment Adjustment Coordinator",
     channel: "Human Resources",
     status: "Active",
-    status_reason: "",
+    status_reason: ""
   },
   {
     emp_id: 973073,
@@ -738,7 +738,7 @@ export const data: dataType[] = [
     group_role: "Civil Engineer",
     channel: "Marketing",
     status: "Active",
-    status_reason: "",
+    status_reason: ""
   },
   {
     emp_id: 973074,
@@ -748,7 +748,7 @@ export const data: dataType[] = [
     group_role: "Librarian",
     channel: "Accounting",
     status: "Active",
-    status_reason: "",
+    status_reason: ""
   },
   {
     emp_id: 973075,
@@ -758,7 +758,7 @@ export const data: dataType[] = [
     group_role: "Database Administrator III",
     channel: "Services",
     status: "Active",
-    status_reason: "",
+    status_reason: ""
   },
   {
     emp_id: 973076,
@@ -768,7 +768,7 @@ export const data: dataType[] = [
     group_role: "Web Designer IV",
     channel: "Accounting",
     status: "Active",
-    status_reason: "",
+    status_reason: ""
   },
   {
     emp_id: 973077,
@@ -778,7 +778,7 @@ export const data: dataType[] = [
     group_role: "Analyst Programmer",
     channel: "Research and Development",
     status: "Deleted",
-    status_reason: "Deleted resigned staff",
+    status_reason: "Deleted resigned staff"
   },
   {
     emp_id: 973078,
@@ -788,7 +788,7 @@ export const data: dataType[] = [
     group_role: "Financial Advisor",
     channel: "Sales",
     status: "Active",
-    status_reason: "",
+    status_reason: ""
   },
   {
     emp_id: 973079,
@@ -798,7 +798,7 @@ export const data: dataType[] = [
     group_role: "Community Outreach Specialist",
     channel: "Product Management",
     status: "Active",
-    status_reason: "",
+    status_reason: ""
   },
   {
     emp_id: 973080,
@@ -808,7 +808,7 @@ export const data: dataType[] = [
     group_role: "Business Systems Development Analyst",
     channel: "Legal",
     status: "Active",
-    status_reason: "",
+    status_reason: ""
   },
   {
     emp_id: 973081,
@@ -818,7 +818,7 @@ export const data: dataType[] = [
     group_role: "Product Engineer",
     channel: "Research and Development",
     status: "Active",
-    status_reason: "",
+    status_reason: ""
   },
   {
     emp_id: 973082,
@@ -828,7 +828,7 @@ export const data: dataType[] = [
     group_role: "Physical Therapy Assistant",
     channel: "Training",
     status: "Active",
-    status_reason: "",
+    status_reason: ""
   },
   {
     emp_id: 973083,
@@ -838,7 +838,7 @@ export const data: dataType[] = [
     group_role: "Technical Writer",
     channel: "Marketing",
     status: "Active",
-    status_reason: "",
+    status_reason: ""
   },
   {
     emp_id: 973084,
@@ -848,7 +848,7 @@ export const data: dataType[] = [
     group_role: "Senior Sales Associate",
     channel: "Human Resources",
     status: "Deleted",
-    status_reason: "Deleted resigned staff",
+    status_reason: "Deleted resigned staff"
   },
   {
     emp_id: 973085,
@@ -858,7 +858,7 @@ export const data: dataType[] = [
     group_role: "Speech Pathologist",
     channel: "Support",
     status: "Inactive",
-    status_reason: "Disable 60 days",
+    status_reason: "Disable 60 days"
   },
   {
     emp_id: 973086,
@@ -868,7 +868,7 @@ export const data: dataType[] = [
     group_role: "Research Assistant I",
     channel: "Engineering",
     status: "Active",
-    status_reason: "",
+    status_reason: ""
   },
   {
     emp_id: 973087,
@@ -878,7 +878,7 @@ export const data: dataType[] = [
     group_role: "Accounting Assistant IV",
     channel: "Product Management",
     status: "Deleted",
-    status_reason: "Deleted resigned staff",
+    status_reason: "Deleted resigned staff"
   },
   {
     emp_id: 973088,
@@ -888,7 +888,7 @@ export const data: dataType[] = [
     group_role: "Account Representative II",
     channel: "Services",
     status: "Deleted",
-    status_reason: "Deleted resigned staff",
+    status_reason: "Deleted resigned staff"
   },
   {
     emp_id: 973089,
@@ -898,7 +898,7 @@ export const data: dataType[] = [
     group_role: "Internal Auditor",
     channel: "Product Management",
     status: "Deleted",
-    status_reason: "Deleted resigned staff",
+    status_reason: "Deleted resigned staff"
   },
   {
     emp_id: 973090,
@@ -908,7 +908,7 @@ export const data: dataType[] = [
     group_role: "Senior Cost Accountant",
     channel: "Marketing",
     status: "Active",
-    status_reason: "",
+    status_reason: ""
   },
   {
     emp_id: 973091,
@@ -918,7 +918,7 @@ export const data: dataType[] = [
     group_role: "Programmer I",
     channel: "Training",
     status: "Active",
-    status_reason: "",
+    status_reason: ""
   },
   {
     emp_id: 973092,
@@ -928,7 +928,7 @@ export const data: dataType[] = [
     group_role: "Research Assistant III",
     channel: "Accounting",
     status: "Active",
-    status_reason: "",
+    status_reason: ""
   },
   {
     emp_id: 973093,
@@ -938,7 +938,7 @@ export const data: dataType[] = [
     group_role: "Statistician I",
     channel: "Business Development",
     status: "Inactive",
-    status_reason: "Disable 60 days",
+    status_reason: "Disable 60 days"
   },
   {
     emp_id: 973094,
@@ -948,7 +948,7 @@ export const data: dataType[] = [
     group_role: "Clinical Specialist",
     channel: "Business Development",
     status: "Inactive",
-    status_reason: "Disable 60 days",
+    status_reason: "Disable 60 days"
   },
   {
     emp_id: 973095,
@@ -958,7 +958,7 @@ export const data: dataType[] = [
     group_role: "Developer II",
     channel: "Support",
     status: "Deleted",
-    status_reason: "Deleted resigned staff",
+    status_reason: "Deleted resigned staff"
   },
   {
     emp_id: 973096,
@@ -968,7 +968,7 @@ export const data: dataType[] = [
     group_role: "Computer Systems Analyst IV",
     channel: "Business Development",
     status: "Active",
-    status_reason: "",
+    status_reason: ""
   },
   {
     emp_id: 973097,
@@ -978,7 +978,7 @@ export const data: dataType[] = [
     group_role: "Sales Associate",
     channel: "Legal",
     status: "Active",
-    status_reason: "",
+    status_reason: ""
   },
   {
     emp_id: 973098,
@@ -988,7 +988,7 @@ export const data: dataType[] = [
     group_role: "Developer III",
     channel: "Business Development",
     status: "Inactive",
-    status_reason: "Disable 30 days",
+    status_reason: "Disable 30 days"
   },
   {
     emp_id: 973099,
@@ -998,7 +998,7 @@ export const data: dataType[] = [
     group_role: "Assistant Media Planner",
     channel: "Product Management",
     status: "Active",
-    status_reason: "",
+    status_reason: ""
   },
   {
     emp_id: 973100,
@@ -1008,6 +1008,6 @@ export const data: dataType[] = [
     group_role: "Registered Nurse",
     channel: "Support",
     status: "Deleted",
-    status_reason: "Deleted resigned staff",
-  },
-];
+    status_reason: "Deleted resigned staff"
+  }
+]

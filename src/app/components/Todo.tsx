@@ -1,24 +1,24 @@
-"use client";
-import { useState } from "react";
-import { MyButton } from "./Button";
-import { Cardd } from "./Card";
-import type { CardProps } from "./Card";
-import DeleteIcon from "@mui/icons-material/Delete";
-import Button from "@mui/material/Button";
-import IconButton from "@mui/material/IconButton";
-import Checkbox from "@mui/joy/Checkbox";
-import { Box, Stack } from "@mui/material";
-import CelebrationIcon from "@mui/icons-material/Celebration";
+"use client"
+import { useState } from "react"
+import { MyButton } from "./Button"
+import { Cardd } from "./Card"
+import type { CardProps } from "./Card"
+import DeleteIcon from "@mui/icons-material/Delete"
+import Button from "@mui/material/Button"
+import IconButton from "@mui/material/IconButton"
+import Checkbox from "@mui/joy/Checkbox"
+import { Box, Stack } from "@mui/material"
+import CelebrationIcon from "@mui/icons-material/Celebration"
 
 export default function Todo() {
-  const [todos, setTodos] = useState<CardProps[]>([]);
-  const [inputValue, setInputValue] = useState<string>("");
-  const [filter, setFilter] = useState<string>("all");
-  const [allFilterClicked, setAllFilterClicked] = useState<boolean>(true);
+  const [todos, setTodos] = useState<CardProps[]>([])
+  const [inputValue, setInputValue] = useState<string>("")
+  const [filter, setFilter] = useState<string>("all")
+  const [allFilterClicked, setAllFilterClicked] = useState<boolean>(true)
   const [completedFilterClicked, setCompletedFilterClicked] =
-    useState<boolean>(false);
+    useState<boolean>(false)
   const [ongoingFilterClicked, setOngoingFilterClicked] =
-    useState<boolean>(false);
+    useState<boolean>(false)
 
   const add = () => {
     if (inputValue.trim()) {
@@ -27,48 +27,48 @@ export default function Todo() {
         {
           id: Date.now(),
           title: inputValue,
-          completed: false,
-        },
-      ]);
-      setInputValue("");
+          completed: false
+        }
+      ])
+      setInputValue("")
     }
-  };
+  }
 
   const toggle = (id: number) => {
     setTodos(
-      todos.map((todoItem) =>
+      todos.map(todoItem =>
         todoItem.id === id
           ? { ...todoItem, completed: !todoItem.completed }
-          : todoItem,
-      ),
-    );
-  };
+          : todoItem
+      )
+    )
+  }
   const del = (id: number) => {
-    setTodos(todos.filter((todo) => todo.id !== id));
-  };
-  const filteredTodos = todos.filter((todoItem) => {
-    if (filter === "completed") return todoItem.completed;
-    if (filter === "ongoing") return !todoItem.completed;
-    return true;
-  });
+    setTodos(todos.filter(todo => todo.id !== id))
+  }
+  const filteredTodos = todos.filter(todoItem => {
+    if (filter === "completed") return todoItem.completed
+    if (filter === "ongoing") return !todoItem.completed
+    return true
+  })
   const filterAll = () => {
-    setFilter("all");
-    setAllFilterClicked(true);
-    setCompletedFilterClicked(false);
-    setOngoingFilterClicked(false);
-  };
+    setFilter("all")
+    setAllFilterClicked(true)
+    setCompletedFilterClicked(false)
+    setOngoingFilterClicked(false)
+  }
   const filterCompleted = () => {
-    setFilter("completed");
-    setAllFilterClicked(false);
-    setCompletedFilterClicked(true);
-    setOngoingFilterClicked(false);
-  };
+    setFilter("completed")
+    setAllFilterClicked(false)
+    setCompletedFilterClicked(true)
+    setOngoingFilterClicked(false)
+  }
   const filterOngoing = () => {
-    setFilter("ongoing");
-    setAllFilterClicked(false);
-    setCompletedFilterClicked(false);
-    setOngoingFilterClicked(true);
-  };
+    setFilter("ongoing")
+    setAllFilterClicked(false)
+    setCompletedFilterClicked(false)
+    setOngoingFilterClicked(true)
+  }
   return (
     <Box sx={{ flexGrow: 1 }}>
       <Stack
@@ -84,10 +84,10 @@ export default function Todo() {
           id="task"
           className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-1/3 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
           value={inputValue}
-          onChange={(e) => setInputValue(e.target.value)}
-          onKeyDown={(e) => {
+          onChange={e => setInputValue(e.target.value)}
+          onKeyDown={e => {
             if (e.key === "Enter") {
-              add();
+              add()
             }
           }}
           placeholder="Add a new todo!"
@@ -109,7 +109,7 @@ export default function Todo() {
 
       <ul>
         {filteredTodos.length > 0 ? (
-          filteredTodos.map((todoItem) => (
+          filteredTodos.map(todoItem => (
             <li
               key={crypto.randomUUID()}
               className={todoItem.completed ? "line-through" : ""}
@@ -163,5 +163,5 @@ export default function Todo() {
         )}
       </ul>
     </Box>
-  );
+  )
 }

@@ -1,18 +1,17 @@
 // import Image from "next/image";
 // import {Box, Stack} from "@mui/material"
-"use client";
-import * as React from "react";
-import Table from "@mui/material/Table";
-import TableBody from "@mui/material/TableBody";
-import TableCell from "@mui/material/TableCell";
-import TableContainer from "@mui/material/TableContainer";
-import TableHead from "@mui/material/TableHead";
-import TableRow from "@mui/material/TableRow";
-import Paper from "@mui/material/Paper";
-import { data } from "../data";
-import type { dataType } from "../data";
+"use client"
+import * as React from "react"
+import Table from "@mui/material/Table"
+import TableBody from "@mui/material/TableBody"
+import TableCell from "@mui/material/TableCell"
+import TableContainer from "@mui/material/TableContainer"
+import TableHead from "@mui/material/TableHead"
+import TableRow from "@mui/material/TableRow"
+import Paper from "@mui/material/Paper"
+import { data } from "../data"
+import type { dataType } from "../data"
 
-import Sidebar from "../components/Sidebar";
 import {
   Button,
   FormControl,
@@ -22,9 +21,9 @@ import {
   Stack,
   TablePagination,
   TextField,
-  Typography,
-} from "@mui/material";
-import { StatusButton } from "../components/StatusButton";
+  Typography
+} from "@mui/material"
+import { StatusButton } from "../components/StatusButton"
 
 export default function Home() {
   function createData(
@@ -34,9 +33,9 @@ export default function Home() {
     group: string,
     channel: string,
     status: string,
-    status_reason: string,
+    status_reason: string
   ) {
-    return { id, name, username, group, channel, status, status_reason };
+    return { id, name, username, group, channel, status, status_reason }
   }
   const tableHeader = [
     "Emp ID",
@@ -45,23 +44,23 @@ export default function Home() {
     "Group/Role",
     "Channel",
     "Status",
-    "Status Reason",
-  ];
-  const [page, setPage] = React.useState<number>(0);
-  const [rowsPerPage, setRowsPerPage] = React.useState<number>(5);
+    "Status Reason"
+  ]
+  const [page, setPage] = React.useState<number>(0)
+  const [rowsPerPage, setRowsPerPage] = React.useState<number>(5)
   const handleChangePage = (
     event: React.MouseEvent<HTMLButtonElement> | null,
-    newPage: number,
+    newPage: number
   ) => {
-    setPage(newPage);
-  };
+    setPage(newPage)
+  }
   const handleChangeRowsPerPage = (
-    event: React.ChangeEvent<HTMLInputElement>,
+    event: React.ChangeEvent<HTMLInputElement>
   ) => {
-    setRowsPerPage(parseInt(event.target.value, 10));
-    setPage(0);
-  };
-  const [search, setSearch] = React.useState("");
+    setRowsPerPage(parseInt(event.target.value, 10))
+    setPage(0)
+  }
+  const [search, setSearch] = React.useState("")
 
   //   const rows = [
   //     createData(973145,"Juan Luiz", "Juan.l@asj.tech", "System Admin", "HR,PDPA,Wealth", "Active", ""),
@@ -93,7 +92,7 @@ export default function Home() {
             label="search"
             variant="outlined"
             sx={{ width: "150px", background: "white" }}
-            onChange={(e) => setSearch(e.target.value)}
+            onChange={e => setSearch(e.target.value)}
           />
           <FormControl sx={{ width: "150px", background: "white" }}>
             <InputLabel id="demo-simple-select-label">Group/Role</InputLabel>
@@ -129,18 +128,18 @@ export default function Home() {
           <Table sx={{ minWidth: 650 }} aria-label="simple table">
             <TableHead>
               <TableRow>
-                {tableHeader.map((head) => (
+                {tableHeader.map(head => (
                   <TableCell key={head}>{head}</TableCell>
                 ))}
               </TableRow>
             </TableHead>
             <TableBody>
               {data
-                .filter((item) => {
+                .filter(item => {
                   return search.toLocaleLowerCase() === ""
                     ? item
                     : item.first_name.toLocaleLowerCase().includes(search) ||
-                        item.last_name.toLocaleLowerCase().includes(search);
+                        item.last_name.toLocaleLowerCase().includes(search)
                 })
                 .slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage)
                 .map((row: dataType) => (
@@ -152,7 +151,7 @@ export default function Home() {
                       component="th"
                       scope="row"
                       sx={{
-                        color: row.status == "Active" ? "black" : "#AEAEAE",
+                        color: row.status == "Active" ? "black" : "#AEAEAE"
                       }}
                     >
                       {row.emp_id}
@@ -160,7 +159,7 @@ export default function Home() {
                     <TableCell
                       align="left"
                       sx={{
-                        color: row.status == "Active" ? "black" : "#AEAEAE",
+                        color: row.status == "Active" ? "black" : "#AEAEAE"
                       }}
                     >
                       {row.first_name} {row.last_name}
@@ -168,7 +167,7 @@ export default function Home() {
                     <TableCell
                       align="left"
                       sx={{
-                        color: row.status == "Active" ? "black" : "#AEAEAE",
+                        color: row.status == "Active" ? "black" : "#AEAEAE"
                       }}
                     >
                       {row.username}{" "}
@@ -176,7 +175,7 @@ export default function Home() {
                     <TableCell
                       align="left"
                       sx={{
-                        color: row.status == "Active" ? "black" : "#AEAEAE",
+                        color: row.status == "Active" ? "black" : "#AEAEAE"
                       }}
                     >
                       {row.group_role}
@@ -184,7 +183,7 @@ export default function Home() {
                     <TableCell
                       align="left"
                       sx={{
-                        color: row.status == "Active" ? "black" : "#AEAEAE",
+                        color: row.status == "Active" ? "black" : "#AEAEAE"
                       }}
                     >
                       {row.channel}
@@ -195,7 +194,7 @@ export default function Home() {
                     <TableCell
                       align="left"
                       sx={{
-                        color: row.status == "Active" ? "black" : "#AEAEAE",
+                        color: row.status == "Active" ? "black" : "#AEAEAE"
                       }}
                     >
                       {row.status_reason}
@@ -216,5 +215,5 @@ export default function Home() {
         </TableContainer>
       </Stack>
     </Stack>
-  );
+  )
 }

@@ -1,6 +1,4 @@
-"use client";
-import { Box, Stack } from "@mui/material";
-import Sidebar from "./components/Sidebar";
+"use client"
 
 export default function Home() {
   return (
@@ -8,5 +6,5 @@ export default function Home() {
     //   <Sidebar/>
     // </Box>
     <></>
-  );
+  )
 }

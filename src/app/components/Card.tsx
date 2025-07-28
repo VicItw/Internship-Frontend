@@ -1,9 +1,9 @@
-import Card from "@mui/joy/Card";
-import { Box } from "@mui/material";
-import { useTheme } from "@mui/material/styles";
-import useMediaQuery from "@mui/material/useMediaQuery";
+import Card from "@mui/joy/Card"
+import { Box } from "@mui/material"
+import { useTheme } from "@mui/material/styles"
+import useMediaQuery from "@mui/material/useMediaQuery"
 
-import React from "react";
+import React from "react"
 
 type CardProps = {
   id: number;
@@ -12,8 +12,8 @@ type CardProps = {
 };
 
 export const Cardd: React.FC<CardProps> = ({ title = "Title" }) => {
-  const theme = useTheme();
-  const matches = useMediaQuery(theme.breakpoints.up("sm"));
+  const theme = useTheme()
+  const matches = useMediaQuery(theme.breakpoints.up("sm"))
   return (
     // <div className = "p-6 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 w-1/2">
     //   <a>
@@ -30,14 +30,14 @@ export const Cardd: React.FC<CardProps> = ({ title = "Title" }) => {
           overflow: "hidden",
           textOverflow: "ellipsis",
           whiteSpace: "nowrap",
-          display: "block",
+          display: "block"
         }}
       >
         {title}
       </Card>
     </Box>
-  );
-};
+  )
+}
 
-export default Cardd;
-export type { CardProps };
+export default Cardd
+export type { CardProps }

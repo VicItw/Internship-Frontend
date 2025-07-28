@@ -1,5 +1,5 @@
-import React from "react";
-import Button from "@mui/material/Button";
+import React from "react"
+import Button from "@mui/material/Button"
 
 type ButtonProps = {
   // onClick: (event: React.MouseEvent<HTMLButtonElement>) => void;
@@ -12,7 +12,7 @@ export const StatusButton: React.FC<ButtonProps> = ({
   //   onClick,
   children,
   disabled = false,
-  className = "bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full",
+  className = "bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
 }) => {
   return (
     <Button
@@ -27,11 +27,11 @@ export const StatusButton: React.FC<ButtonProps> = ({
             ? "#109CF1"
             : children == "Inactive"
               ? "#AEBBE0"
-              : "#ed9a7b",
+              : "#ed9a7b"
       }}
       fullWidth
     >
       {children}
     </Button>
-  );
-};
+  )
+}

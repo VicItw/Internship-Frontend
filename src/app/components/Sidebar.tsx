@@ -1,5 +1,5 @@
-"use client";
-import React from "react";
+"use client"
+import React from "react"
 import {
   Avatar,
   Box,
@@ -7,24 +7,24 @@ import {
   IconButton,
   Stack,
   Tooltip,
-  Typography,
-} from "@mui/material";
-import KeyboardDoubleArrowRightIcon from "@mui/icons-material/KeyboardDoubleArrowRight";
-import KeyboardDoubleArrowLeftIcon from "@mui/icons-material/KeyboardDoubleArrowLeft";
-import AssignmentIndOutlinedIcon from "@mui/icons-material/AssignmentIndOutlined";
-import PsychologyOutlinedIcon from "@mui/icons-material/PsychologyOutlined";
-import FolderCopyOutlinedIcon from "@mui/icons-material/FolderCopyOutlined";
-import ContentPasteOutlinedIcon from "@mui/icons-material/ContentPasteOutlined";
-import StickyNote2OutlinedIcon from "@mui/icons-material/StickyNote2Outlined";
-import Groups3OutlinedIcon from "@mui/icons-material/Groups3Outlined";
-import ChecklistIcon from "@mui/icons-material/Checklist";
-import Link from "next/link";
+  Typography
+} from "@mui/material"
+import KeyboardDoubleArrowRightIcon from "@mui/icons-material/KeyboardDoubleArrowRight"
+import KeyboardDoubleArrowLeftIcon from "@mui/icons-material/KeyboardDoubleArrowLeft"
+import AssignmentIndOutlinedIcon from "@mui/icons-material/AssignmentIndOutlined"
+import PsychologyOutlinedIcon from "@mui/icons-material/PsychologyOutlined"
+import FolderCopyOutlinedIcon from "@mui/icons-material/FolderCopyOutlined"
+import ContentPasteOutlinedIcon from "@mui/icons-material/ContentPasteOutlined"
+import StickyNote2OutlinedIcon from "@mui/icons-material/StickyNote2Outlined"
+import Groups3OutlinedIcon from "@mui/icons-material/Groups3Outlined"
+import ChecklistIcon from "@mui/icons-material/Checklist"
+import Link from "next/link"
 
 const Sidebar = () => {
-  const [open, setOpen] = React.useState(false);
+  const [open, setOpen] = React.useState(false)
   const toggle = () => {
-    setOpen((prev) => !prev);
-  };
+    setOpen(prev => !prev)
+  }
   return (
     <div>
       <Collapse
@@ -194,7 +194,7 @@ const Sidebar = () => {
         </Box>
       </Collapse>
     </div>
-  );
-};
+  )
+}
 
-export default Sidebar;
+export default Sidebar
