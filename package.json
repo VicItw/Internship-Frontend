@@ -6,7 +6,15 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "prettier --check .",
+    "format": "prettier --write .",
+    "prepare": "husky",
+    "test": "jest"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run format && git add -A ."
+    }
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
@@ -15,9 +23,9 @@
     "@mui/joy": "^5.0.0-beta.52",
     "@mui/material": "^7.2.0",
     "@mui/styled-engine-sc": "^7.2.0",
-    "next": "15.3.5",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
+    "next": "^15.4.3",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
     "styled-components": "^6.1.19"
   },
   "devDependencies": {
@@ -28,6 +36,8 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "15.3.5",
+    "husky": "^9.1.7",
+    "jest": "^30.0.5",
     "tailwindcss": "^4",
     "typescript": "^5"
   }
