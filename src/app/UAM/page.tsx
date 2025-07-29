@@ -24,17 +24,6 @@ import {
 import { StatusButton } from "../components/StatusButton"
 
 export default function Home() {
-  function createData(
-    id: number,
-    name: string,
-    username: string,
-    group: string,
-    channel: string,
-    status: string,
-    status_reason: string
-  ) {
-    return { id, name, username, group, channel, status, status_reason }
-  }
   const tableHeader = [
     "Emp ID",
     "Name - Lastname",
