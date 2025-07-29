@@ -30,8 +30,8 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Stack direction="row" bgcolor="#F5F6F8">
-          <Sidebar></Sidebar>
-          <>{children}</>
+          <Sidebar/>
+          {children}
         </Stack>
       </body>
     </html>

@@ -1,5 +1,3 @@
-// import Image from "next/image";
-// import {Box, Stack} from "@mui/material"
 "use client"
 import * as React from "react"
 import Table from "@mui/material/Table"
@@ -62,14 +60,12 @@ export default function Home() {
   }
   const [search, setSearch] = React.useState("")
 
-  //   const rows = [
-  //     createData(973145,"Juan Luiz", "Juan.l@asj.tech", "System Admin", "HR,PDPA,Wealth", "Active", ""),
-  //     createData(984315,"Juan Mata", "Juan.m@asj.tech", "Data Factory", "HR,Regulatory", "Inactive", "Delete resigned staff"),
-  //     createData(952145,"Juan Lopetegui", "Juan.lo@asj.tech", "KLabs", "Wealth,Regulatory", "Active", "")
-  //   ]
+  function searchName(item:string){
+    return item.toLocaleLowerCase().includes(search)
+  }
+
   return (
     <Stack direction="row">
-      {/* <Sidebar/> */}
       <Stack direction="column" margin={5}>
         <Typography variant="h3" mb={6}>
           {" "}
@@ -138,8 +134,7 @@ export default function Home() {
                 .filter(item => {
                   return search.toLocaleLowerCase() === ""
                     ? item
-                    : item.first_name.toLocaleLowerCase().includes(search) ||
-                        item.last_name.toLocaleLowerCase().includes(search)
+                    : searchName(item.first_name) || searchName(item.last_name)
                 })
                 .slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage)
                 .map((row: dataType) => (
