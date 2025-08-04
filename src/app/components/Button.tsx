@@ -1,10 +1,10 @@
 import React from "react"
 
 type ButtonProps = {
-    onClick: (event: React.MouseEvent<HTMLButtonElement>) => void;
-    children: React.ReactNode;
-    disabled?: boolean;
-    className?: string;
+  onClick: (event: React.MouseEvent<HTMLButtonElement>) => void;
+  children: React.ReactNode;
+  disabled?: boolean;
+  className?: string;
 };
 
 export const MyButton: React.FC<ButtonProps> = ({
