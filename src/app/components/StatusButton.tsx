@@ -27,7 +27,8 @@ export const StatusButton: React.FC<ButtonProps> = ({
             ? "#109CF1"
             : children == "Inactive"
               ? "#AEBBE0"
-              : "#ed9a7b"
+              : "#ed9a7b",
+        width: 100
       }}
       fullWidth
     >

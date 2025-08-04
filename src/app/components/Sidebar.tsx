@@ -19,6 +19,7 @@ import StickyNote2OutlinedIcon from "@mui/icons-material/StickyNote2Outlined"
 import Groups3OutlinedIcon from "@mui/icons-material/Groups3Outlined"
 import ChecklistIcon from "@mui/icons-material/Checklist"
 import Link from "next/link"
+import { Fullscreen } from "@mui/icons-material"
 
 const Sidebar = () => {
   const [open, setOpen] = React.useState(false)
@@ -33,7 +34,7 @@ const Sidebar = () => {
         orientation="horizontal"
         collapsedSize="60px"
       >
-        <Box bgcolor="white" width="270px" padding="10px" height="700px">
+        <Box bgcolor="white" width="270px" padding="10px" height="100vh">
           <IconButton
             aria-label="expand menu"
             sx={{ display: open ? "none" : "flex", mb: "30px", mt: "10px" }}
